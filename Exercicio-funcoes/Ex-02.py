@@ -5,8 +5,8 @@ n2 = float(input('Digite o segundo numero'))
 n3 = float(input('Digite o terceiro numero'))
 
 
-def media(n1, n2, n3):
-    return (n1 + n2 + n3) / 3
+def media(*numeros):
+    return sum(numeros) / len(numeros)
 
 mensagem = f"A média aritmética dos números é: {media(n1, n2, n3)}"
 
