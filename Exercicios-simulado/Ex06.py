@@ -9,8 +9,8 @@ def conversor_pontos(pontos):
   nota = (pontos * 10) / 100
 
   
-  if nota < 0.0 or nota > 100.0:
-        return "Nota inválida"
+  if pontos < 0.0 or pontos > 100.0:
+        return "pontuação inválida"
 
   if nota >= 9.0:
       return "A"
